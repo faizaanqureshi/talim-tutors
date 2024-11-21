@@ -9,13 +9,6 @@ import {
 } from "@/components/ui/accordion"
 import { CardStack } from "@/components/ui/card-stack";
 import { cn } from "@/lib/utils";
-export function CardStackDemo() {
-  return (
-    <div className="h-[40rem] flex items-center justify-center w-full">
-      <CardStack items={CARDS} />
-    </div>
-  );
-}
 import { LuPhoneCall } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 
