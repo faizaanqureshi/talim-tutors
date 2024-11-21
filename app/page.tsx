@@ -73,7 +73,7 @@ const CARDS = [
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/omar.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
         <p className="text-black text-sm hidden md:inline">
-          A <Highlight>fourth year</Highlight> student who TA'd advanced third year engineering courses and is working 16-months at Synopsys in processor design
+          A <Highlight>fourth year</Highlight> student who TA&apos;d advanced third year engineering courses and is working 16-months at Synopsys in processor design
         </p>
       </div>
     ),
@@ -99,7 +99,7 @@ const CARDS = [
       <div className="flex flex-row gap-4">
         <Image src="/hamza.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
         <p className="text-black text-sm hidden md:inline">
-          A <Highlight>third year</Highlight> student who's knowledge of maps and technology are rivaled by none. He's tutored in many subjects both <Highlight>academic and spiritual</Highlight>.
+          A <Highlight>third year</Highlight> student who&apos;s knowledge of maps and technology are rivaled by none. He&apos;s tutored in many subjects both <Highlight>academic and spiritual</Highlight>.
         </p>
       </div>
     ),
@@ -199,7 +199,7 @@ export function Hero() {
   </div>
     <div className="flex flex-col xl:flex-row justify-between items-center py-8 md:px-28 w-full self-center border-stone-600 gap-8">
       <div className="text-center">
-        <h4 className="scroll-m-20 text-xl font-base tracking-tight text-stone-300">Tutors from and Accepted Into</h4><h4 className="scroll-m-20 text-xl font-semibold tracking-tight text-blue-400">Canada's Top Universities</h4>
+        <h4 className="scroll-m-20 text-xl font-base tracking-tight text-stone-300">Tutors from and Accepted Into</h4><h4 className="scroll-m-20 text-xl font-semibold tracking-tight text-blue-400">Canada&apos;s Top Universities</h4>
       </div>
       <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 flex-wrap">
         <Image src="/waterloo.png" width={130} height={36} alt="UWaterloo" />

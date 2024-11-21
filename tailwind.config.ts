@@ -1,7 +1,10 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 const {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	default: flattenColorPalette,
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config: Config = {
