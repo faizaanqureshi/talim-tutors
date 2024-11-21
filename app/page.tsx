@@ -11,6 +11,7 @@ import { CardStack } from "@/components/ui/card-stack";
 import { cn } from "@/lib/utils";
 import { LuPhoneCall } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
+import Modal from "@/components/ui/modal";
 
 const Highlight = ({
   children,
@@ -244,8 +245,10 @@ function Contact() {
   )
 }
 export default function Home() {
+
   return (
     <div className="flex flex-col min-h-screen items-center bg-stone-950">
+      <Modal />
       <Header />
       <div className="flex flex-col bg-stone-950 w-full xl:w-4/5 min-h-screen gap-12 md:gap-16">
         <Hero />
