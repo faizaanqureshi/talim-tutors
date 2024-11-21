@@ -13,7 +13,7 @@ export default function Modal() {
 
     useEffect(() => {
         // Set a random delay between 15 and 25 seconds
-        const randomDelay = 1000;
+        const randomDelay = Math.floor(Math.random() * (25 - 15 + 1) + 15) * 1000;
         // Math.floor(Math.random() * (25 - 15 + 1) + 15) * 1000
         const timer = setTimeout(() => {
             setShowModal(true); // Show the dialog
