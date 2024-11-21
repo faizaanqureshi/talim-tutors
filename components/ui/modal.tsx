@@ -12,14 +12,12 @@ export default function Modal() {
     const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
-        // Set a random delay between 15 and 25 seconds
         const randomDelay = Math.floor(Math.random() * (25 - 15 + 1) + 15) * 1000;
-        // Math.floor(Math.random() * (25 - 15 + 1) + 15) * 1000
+
         const timer = setTimeout(() => {
-            setShowModal(true); // Show the dialog
+            setShowModal(true);
         }, randomDelay);
 
-        // Cleanup the timer when the component unmounts
         return () => clearTimeout(timer);
     }, []);
 
