@@ -176,9 +176,9 @@ function Footer() {
 }
 
 function Hero() {
-  return (<div className="bg-hero bg-no-repeat bg-cover"><div className="h-[20rem] md:h-[40rem] w-full rounded-md flex md:items-center md:justify-center antialiased bg-grid-white/[0.02] relative overflow-hidden">
+  return (<div className="bg-hero bg-no-repeat bg-cover"><div className="h-[20rem] md:h-[32.5rem] w-full rounded-md flex md:items-center md:justify-center antialiased bg-grid-white/[0.02] relative overflow-hidden">
     <Spotlight
-      className="-top-20 md:-top-40 left-0 md:left-60 md:-top-20"
+      className="-top-20 md:-top-32.5 left-0 md:left-60 md:-top-20"
       fill="white"
     />
     <div className=" p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
