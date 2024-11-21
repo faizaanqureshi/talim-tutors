@@ -19,7 +19,7 @@ export function CardStackDemo() {
 import { LuPhoneCall } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 
-export const Highlight = ({
+const Highlight = ({
   children,
   className,
 }: {
