@@ -99,7 +99,7 @@ const CARDS = [
   },
 ];
 
-export function FAQ() {
+function FAQ() {
   return (
     <div className="flex p-4 md:p-0 pt-12 md:pt-0 flex-col items-center bg-stone-950">
       <h2 className="scroll-m-20 border-b border-stone-600 pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-white text-center">
@@ -135,7 +135,7 @@ export function FAQ() {
   )
 }
 
-export function Header() {
+function Header() {
   return (
     <div className="flex flex-row justify-between w-full items-center md:px-36 lg:px-64 xl:px-96 sticky top-0 z-10 bg-stone-950/75">
       <div className="flex flex-row items-center p-2 pl-4 gap-3 flex-1">
@@ -158,7 +158,7 @@ export function Header() {
   )
 }
 
-export function Footer() {
+function Footer() {
   return (
     <div className="flex flex-row justify-between w-full items-center align-center pt-16 md:pt-8 bg-stone-950/75">
       <div className="flex flex-row items-center justify-center p-2 pl-4 gap-3 flex-1">
@@ -175,7 +175,7 @@ export function Footer() {
   )
 }
 
-export function Hero() {
+function Hero() {
   return (<div><div className="h-[15rem] md:h-[40rem] w-full rounded-md flex md:items-center md:justify-center antialiased bg-grid-white/[0.02] bg-hero bg-no-repeat bg-cover relative overflow-hidden">
     <Spotlight
       className="-top-40 left-0 md:left-60 md:-top-20"
@@ -203,7 +203,7 @@ export function Hero() {
     </div></div>)
 }
 
-export function About() {
+function About() {
   return (
     <div className="flex flex-col lg:flex-row self-center items-center bg-stone-950 gap-24 md:gap-32 xl:gap-48 w-4/5">
       <div className="flex flex-col gap-4 flex-1">
@@ -226,7 +226,7 @@ export function About() {
   )
 }
 
-export function Contact() {
+function Contact() {
   return (
     <div className="flex pt-6 md:pt-0 flex-col items-center bg-stone-950">
       <h2 className="scroll-m-20 border-b border-stone-600 pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-white">
