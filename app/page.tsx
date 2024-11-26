@@ -268,7 +268,7 @@ function About() {
         </h2>
 
         <h4 className="scroll-m-20 text-xl font-normal tracking-tight text-stone-100 text-center">
-          We are a group of students - from some of the top universities in the Canada - who noticed a problematic gap in the academic space: a <b>lack of quality</b> tutors, and a <b>shortage of servies</b> to quickly and easily connect students with them.
+          We are a group of students - from some of the top universities in Canada - who noticed a problematic gap in the academic space: a <b>lack of quality</b> tutors, and a <b>shortage of services</b> to quickly and easily connect students with them.
         </h4>
 
         <h4 className="scroll-m-20 text-xl font-normal tracking-tight text-stone-100 text-center">
