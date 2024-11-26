@@ -198,8 +198,8 @@ function Header() {
         <Image src="/logo.png" height={48} width={48} alt="logo" />
         <h3 className="scroll-m-20 text-xl font-bold tracking-tight text-stone-200 subpixel-antialiased">Talim Tutors</h3>
       </div>
-      <div className="p-2 pr-4 md:flex hidden">
-        <a href="mailto:talimtutoring@gmail.com">
+      <div className="p-2 pr-4 flex">
+        <a href="mailto:talimtutoring@gmail.com" className="hidden md:flex">
           <Button className="text-stone-400 font-bold text-sm mr-2" variant="link">
             Join Us
           </Button>
