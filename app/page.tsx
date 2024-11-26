@@ -84,7 +84,7 @@ const CARDS = [
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/ali.png" height={96} width={96} alt="Ali" className="rounded-full"></Image>
         <p className="text-black text-sm">
-          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. He has a good grasp on <Highlight>physic</Highlight> and <Highlight>chemistry</Highlight>, from kinematics to organic.
+          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. He has a good grasp on <Highlight>physics</Highlight> and <Highlight>chemistry</Highlight>, from kinematics to organic.
         </p>
       </div>
     ),
