@@ -28,7 +28,7 @@ export default function Modal() {
     return (
         <Dialog open={showModal} onOpenChange={handleClose}>
             <DialogTitle></DialogTitle>
-            <DialogContent className="w-11/12 md:w-3/5 py-12 bg-black border-stone-800 p-8 md:p-12 lg:p-16 flex flex-row justify-center">
+            <DialogContent className="w-11/12 md:w-3/5 py-12 bg-black border-stone-800 p-8 md:p-10 lg:p-10 flex flex-row justify-center">
                 <div className="flex flex-col space-between items-center">
                     <h3 className="scroll-m-20 text-xl md:text-2xl font-semibold tracking-tight text-center text-stone-200">
                         Not sure if you need tutoring?
