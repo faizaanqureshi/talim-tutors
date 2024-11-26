@@ -39,7 +39,7 @@ export default function Modal() {
                     <p className="leading-7 [&:not(:first-child)]:mt-6 text-center text-lg text-stone-400">
                         Experience a free lesson and see why our tutoring stands out. No obligations, just quality education.
                     </p>
-                    <a href="https://calendly.com/talimtutoring/30min">
+                    <a href="https://calendly.com/talimtutoring/30min" target="_blank">
                         <Button type="submit" onClick={handleClose} className="mt-12 bg-blue-600 text-md md:text-lg font-bold hover:bg-blue-700">
                             Schedule Your Free Consultation
                         </Button>

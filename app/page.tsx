@@ -128,7 +128,7 @@ function FAQ() {
         <AccordionItem value="item-4" className="border-0">
           <AccordionTrigger className="font-semibold text-lg">I want to get started! Who should I call?</AccordionTrigger>
           <AccordionContent className="font-base text-lg">
-            Complete our intake survey by calling <a href="tel:9057490504" className="font-bold text-blue-400">+1 (905) 749-0504</a> or click <a href="https://calendly.com/talimtutoring/30min" className="font-bold text-blue-400">here</a> to book a free consultation
+            Complete our intake survey by calling <a href="tel:9057490504" className="font-bold text-blue-400">+1 (905) 749-0504</a> or click <a href="https://calendly.com/talimtutoring/30min" target="_blank" className="font-bold text-blue-400">here</a> to book a free consultation
           </AccordionContent>
         </AccordionItem>
       </Accordion>
@@ -149,7 +149,7 @@ function Header() {
             Join Us
           </Button>
         </a>
-        <a href="mailto:talimtutoring@gmail.com">
+        <a href="https://calendly.com/talimtutoring/30min" target="_blank">
           <Button className="text-stone-200 font-bold text-md">
             Hire a Tutor
           </Button>
