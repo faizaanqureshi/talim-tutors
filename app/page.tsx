@@ -43,7 +43,7 @@ const CARDS = [
     designation: "Computer Science (UWaterloo) and Business Administration (Laurier)",
     content: (
       <div className="flex flex-col md:flex-row gap-4">
-        <Image src="/faizaan.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
+        <Image src="/faizaan.png" height={96} width={96} alt="Faizaan" className="rounded-full"></Image>
         <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student with several <Highlight>software engineering</Highlight> internships under his belt, his mastery of <Highlight>mathematics</Highlight> is unparalleled. He also created this website.
         </p>
@@ -56,7 +56,7 @@ const CARDS = [
     designation: "Computer Science (UWaterloo)",
     content: (
       <div className="flex flex-col md:flex-row gap-4">
-        <Image src="/alyaan.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
+        <Image src="/alyaan.png" height={96} width={96} alt="Alyaan" className="rounded-full"></Image>
         <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student with a knack for analyzing data and trends using advanced tools such as <Highlight>Python</Highlight>. He believes everyone should learn to see the world using numbers.
         </p>
@@ -69,7 +69,7 @@ const CARDS = [
     designation: "Computer Engineering (McMaster)",
     content: (
       <div className="flex flex-col md:flex-row gap-4">
-        <Image src="/omar.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
+        <Image src="/omar.png" height={96} width={96} alt="Omar" className="rounded-full"></Image>
         <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student who TA&apos;d advanced third year engineering courses and is working 16-months at Synopsys in processor design
         </p>
@@ -82,7 +82,7 @@ const CARDS = [
     designation: "Computer Engineering (McMaster)",
     content: (
       <div className="flex flex-col md:flex-row gap-4">
-        <Image src="/ali.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
+        <Image src="/ali.png" height={96} width={96} alt="Ali" className="rounded-full"></Image>
         <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. He has a good grasp on <Highlight>physic</Highlight> and <Highlight>chemistry</Highlight>, from kinematics to organic.
         </p>
@@ -94,8 +94,8 @@ const CARDS = [
     name: "Hamza Hamid",
     designation: "Geomatics (UWaterloo)",
     content: (
-      <div className="flex flex-row gap-4">
-        <Image src="/hamza.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
+      <div className="flex flex-col md:flex-row gap-4">
+        <Image src="/hamza.png" height={96} width={96} alt="Hamza" className="rounded-full"></Image>
         <p className="text-black text-sm">
           A <Highlight>third year</Highlight> student who&apos;s knowledge of maps and technology are rivaled by none. He&apos;s tutored in many subjects both <Highlight>academic and spiritual</Highlight>.
         </p>
