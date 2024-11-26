@@ -148,6 +148,7 @@ function Offerings() {
         <div className="flex flex-col md:flex-row self-center justify-center gap-8">
           <Image src="/math.webp" height={256} width={256} alt="logo" className="rounded-3xl" />
           <Image src="/science.webp" height={256} width={256} alt="logo" />
+          <Image src="/english.webp" height={256} width={256} alt="logo" />
         </div>
       </div>
     </div>
