@@ -1,3 +1,5 @@
+'use client'
+
 import { Button } from "@/components/ui/button";
 import { Spotlight } from "@/components/ui/Spotlight";
 import Image from "next/image";
@@ -12,6 +14,8 @@ import { cn } from "@/lib/utils";
 import { LuPhoneCall } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
 import Modal from "@/components/ui/modal";
+import { useState } from "react";
+import { useInView } from 'react-intersection-observer';
 
 const Highlight = ({
   children,
@@ -99,6 +103,56 @@ const CARDS = [
     ),
   },
 ];
+
+function Offerings() {
+  const words = ["Mathematics", "Computer Science", "Physics", "Chemistry", "English"];
+  const [loaded, setLoaded] = useState(false);
+
+  const { ref, inView } = useInView({
+    threshold: 0.1, // Trigger when 10% of the element is visible
+    triggerOnce: true, // Ensure it only triggers once
+  });
+
+  // Set `loaded` when the component is in view
+  if (inView && !loaded) {
+    setLoaded(true);
+  }
+
+  return (
+    <div
+      ref={ref} // Attach the `ref` to the container
+      className="flex flex-col self-center items-center bg-stone-950 gap-24 md:gap-32 xl:gap-48 w-4/5 mb-10 mt-24 md:mt-0"
+    >
+      <div className="flex flex-col gap-4 flex-1">
+        <h2 className="scroll-m-20 text-4xl font-semibold tracking-tight first:mt-0 text-white self-center text-center">
+          What services do we <span className="text-blue-400">offer?</span>
+        </h2>
+
+        <h4 className="scroll-m-20 text-2xl font-semibold tracking-tight text-stone-100 text-center">
+          {words.map((word, index) => (
+            <span
+              key={index}
+              className={`inline-block opacity-0 ${loaded ? 'animate-fadeIn' : ''}`}
+              style={{ animationDelay: `${index * 800}ms` }}
+            >
+              {word}
+              {index < words.length - 1 && <span className="mx-2">|</span>}
+            </span>
+          ))}
+        </h4>
+
+        <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0 text-white self-center mt-4">
+          Grades <span className="text-blue-400">6-12</span>
+        </h2>
+
+        <div className="flex flex-col md:flex-row self-center justify-center gap-8">
+          <Image src="/math.webp" height={256} width={256} alt="logo" className="rounded-3xl" />
+          <Image src="/science.webp" height={256} width={256} alt="logo" />
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function FAQ() {
   return (
@@ -253,6 +307,7 @@ export default function Home() {
       <div className="flex flex-col bg-stone-950 w-full xl:w-4/5 min-h-screen gap-12 md:gap-16">
         <Hero />
         <About />
+        <Offerings />
         <FAQ />
         <Contact />
       </div>
