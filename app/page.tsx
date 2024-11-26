@@ -80,7 +80,7 @@ const CARDS = [
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/ali.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
         <p className="text-black text-sm">
-          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. Consistently exceeds expectations and very compassionate teacher. He has a good grasp on physics and chemistry topics.
+          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. Consistently exceeds expectations and very compassionate teacher. He has a good grasp on <Highlight>physic</Highlight> and <Highlight>chemistry</Highlight>, from kinematics to organic.
         </p>
       </div>
     ),
@@ -108,27 +108,27 @@ function FAQ() {
       </h2>
       <Accordion type="single" collapsible className="w-full text-stone-300 bg-stone-950 w-3/4 p-4 rounded-3xl mt-5 border-2 border-stone-800">
         <AccordionItem value="item-1" className="border-stone-800">
-          <AccordionTrigger>What are your tutoring rates?</AccordionTrigger>
-          <AccordionContent>
-            Individual rate: <b>$35/Hr</b>.<br /> Group rate (2 people): <b>$30/Hr</b> per person. <br />Group rate (3 people): <b>$25/Hr</b> per person.
+          <AccordionTrigger className="font-semibold text-lg">What are your tutoring rates?</AccordionTrigger>
+          <AccordionContent className="font-base text-lg">
+            Individual rate: <span className="font-bold text-blue-400">$35/Hour</span><br />Referral Rate: <span className="font-bold text-blue-400">$30/Hour</span><br />Group rate (2 people): <span className="font-bold text-blue-400">$25/Hour</span> per person
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="border-stone-800">
-          <AccordionTrigger>What subjects do you teach?</AccordionTrigger>
-          <AccordionContent>
-            Currently, we offer tutoring for mathematics for <b>grades 6-12</b> at all levels (Academic/Applied/AP).
+          <AccordionTrigger className="font-semibold text-lg">What subjects do you teach?</AccordionTrigger>
+          <AccordionContent className="font-base text-lg">
+            Currently, we offer tutoring for <span className="font-bold text-blue-400">mathematics</span>, <span className="font-bold text-blue-400">computer science</span>, <span className="font-bold text-blue-400">physics</span>, <span className="font-bold text-blue-400">chemistry</span>, and <span className="font-bold text-blue-400">english</span> for <b>grades 6-12</b> at all levels (Academic/Applied/AP).
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="border-stone-800">
-          <AccordionTrigger>How do you conduct sessions?</AccordionTrigger>
-          <AccordionContent>
-            We conduct sessions using <b>Google Meets</b>. We ask that students have a writing tablet to screen share and collaborate with tutors for maximum results.
+          <AccordionTrigger className="font-semibold text-lg">How do you conduct sessions?</AccordionTrigger>
+          <AccordionContent className="font-base text-lg">
+            We conduct sessions using <span className="font-bold text-blue-400">Google Meets</span>. All our tutors share their screen using writing tablets and work through problems with students.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4" className="border-0">
-          <AccordionTrigger>I want to get started! Who should I call?</AccordionTrigger>
-          <AccordionContent>
-            Complete our intake survey by calling <b>+1 (905) 749-0504</b> and we can schedule you a free consultation.
+          <AccordionTrigger className="font-semibold text-lg">I want to get started! Who should I call?</AccordionTrigger>
+          <AccordionContent className="font-base text-lg">
+            Complete our intake survey by calling <a href="tel:9057490504" className="font-bold text-blue-400">+1 (905) 749-0504</a> or click <a href="https://calendly.com/talimtutoring/30min" className="font-bold text-blue-400">here</a> to book a free consultation
           </AccordionContent>
         </AccordionItem>
       </Accordion>
