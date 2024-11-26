@@ -40,7 +40,7 @@ const CARDS = [
     content: (
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/faizaan.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
-        <p className="text-black text-sm hidden md:inline">
+        <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student with several <Highlight>software engineering</Highlight> internships under his belt, his mastery of <Highlight>mathematics</Highlight> is unparalleled. He also created this website.
         </p>
       </div>
@@ -53,8 +53,8 @@ const CARDS = [
     content: (
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/alyaan.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
-        <p className="text-black text-sm hidden md:inline">
-          A <Highlight>fourth year</Highlight> student with a knack for analyzing data and trends using advanced tools such as <Highlight>Python</Highlight>.
+        <p className="text-black text-sm">
+          A <Highlight>fourth year</Highlight> student with a knack for analyzing data and trends using advanced tools such as <Highlight>Python</Highlight>. He believes everyone should learn to see the world using numbers.
         </p>
       </div>
     ),
@@ -66,7 +66,7 @@ const CARDS = [
     content: (
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/omar.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
-        <p className="text-black text-sm hidden md:inline">
+        <p className="text-black text-sm">
           A <Highlight>fourth year</Highlight> student who TA&apos;d advanced third year engineering courses and is working 16-months at Synopsys in processor design
         </p>
       </div>
@@ -79,8 +79,8 @@ const CARDS = [
     content: (
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/ali.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
-        <p className="text-black text-sm hidden md:inline">
-          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. Consistently exceeds expectations and very compassionate teacher.
+        <p className="text-black text-sm">
+          A <Highlight>fourth year</Highlight> student working in project management at Ontario Power Generation. Consistently exceeds expectations and very compassionate teacher. He has a good grasp on physics and chemistry topics.
         </p>
       </div>
     ),
@@ -92,7 +92,7 @@ const CARDS = [
     content: (
       <div className="flex flex-row gap-4">
         <Image src="/hamza.png" height={96} width={96} alt="faizaan" className="rounded-full"></Image>
-        <p className="text-black text-sm hidden md:inline">
+        <p className="text-black text-sm">
           A <Highlight>third year</Highlight> student who&apos;s knowledge of maps and technology are rivaled by none. He&apos;s tutored in many subjects both <Highlight>academic and spiritual</Highlight>.
         </p>
       </div>
@@ -220,7 +220,7 @@ function About() {
           That is why we started <b>Talim Tutors</b>: a one-stop platform where students can find and connect with their ideal tutor from a list of exceptionally bright individuals belonging to highly prestigious programs from top universities including <span className="text-blue-400 font-bold">University of Waterloo,</span> <span className="text-blue-400"></span> <span className="text-blue-400 font-bold">Western,</span> <span className="text-blue-400 font-bold">McMaster,</span>  <span className="text-blue-400 font-bold">Laurier, and more.</span>
         </h4>
       </div>
-      <div className="flex items-center justify-center flex-1">
+      <div className="flex items-center justify-center flex-1 mb-12">
         <CardStack items={CARDS} />
       </div>
     </div>
