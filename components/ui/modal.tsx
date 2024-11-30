@@ -12,7 +12,7 @@ export default function Modal() {
     const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
-        const randomDelay = Math.floor(Math.random() * (25 - 15 + 1) + 15) * 1000;
+        const randomDelay = Math.floor(Math.random() * (45 - 35 + 1) + 35) * 1000;
 
         const timer = setTimeout(() => {
             setShowModal(true);
