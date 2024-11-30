@@ -165,7 +165,7 @@ function FAQ() {
         <AccordionItem value="item-1" className="border-stone-800">
           <AccordionTrigger className="font-semibold text-lg">What are your tutoring rates?</AccordionTrigger>
           <AccordionContent className="font-base text-lg">
-            Individual rate: <span className="font-bold text-blue-400">$35/Hour</span><br />Referral Rate: <span className="font-bold text-blue-400">$30/Hour</span><br />Group rate (2 people): <span className="font-bold text-blue-400">$25/Hour</span> per person
+            University Level Calculus I and II: <span className="font-bold text-blue-400">$45/Hour</span><br /> Individual rate (Grade 6-12): <span className="font-bold text-blue-400">$35/Hour</span><br />Referral Rate: <span className="font-bold text-blue-400">$30/Hour</span><br />Group rate (2 people): <span className="font-bold text-blue-400">$25/Hour</span> per person
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="border-stone-800">
