@@ -66,7 +66,7 @@ const CARDS = [
   {
     id: 2,
     name: "Saif Ghauri",
-    designation: "St. George Medical School + Biomedical Science (UWaterloo [Alumnus])",
+    designation: "St. George Medical School",
     content: (
       <div className="flex flex-col md:flex-row gap-4">
         <Image src="/saif.jpg" height={96} width={96} alt="Alyaan" className="rounded-full"></Image>
