@@ -65,6 +65,19 @@ const CARDS = [
   },
   {
     id: 2,
+    name: "Saif Ghauri",
+    designation: "St. George Medical School + Biomedical Science (UWaterloo [Alumnus])",
+    content: (
+      <div className="flex flex-col md:flex-row gap-4">
+        <Image src="/saif.jpg" height={96} width={96} alt="Alyaan" className="rounded-full"></Image>
+        <p className="text-black text-sm">
+          A <Highlight>med school</Highlight> student who completed his undergrad in biomedical sciences from UWaterloo with a mastery in subjects including <Highlight>biology</Highlight>, and <Highlight>chemistry</Highlight>.
+        </p>
+      </div>
+    ),
+  },
+  {
+    id: 3,
     name: "Omar Abdulrahman",
     designation: "Computer Engineering (McMaster)",
     content: (
@@ -77,7 +90,7 @@ const CARDS = [
     ),
   },
   {
-    id: 3,
+    id: 4,
     name: "Ali Shariq",
     designation: "Computer Engineering (McMaster)",
     content: (
@@ -90,7 +103,7 @@ const CARDS = [
     ),
   },
   {
-    id: 4,
+    id: 5,
     name: "Hamza Hamid",
     designation: "Geomatics (UWaterloo)",
     content: (
